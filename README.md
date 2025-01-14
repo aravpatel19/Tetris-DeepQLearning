@@ -28,16 +28,14 @@ I trained the model for several hours, letting it learn and improve incrementall
 ### Equation Utilized
 The training process was guided by the Bellman Equation for optimal Q-values:
 
-```math
-Q^*(s, a) = \max_{\pi}\mathbb{E}[r_t + \gamma r_{t+1} + \gamma^2 r_{t+2} + \ldots | s_t = s, a_t = a, \pi]
-```
+<img width="607" alt="Screenshot 2025-01-14 at 2 15 49 PM" src="https://github.com/user-attachments/assets/a0e487ee-f89b-4e4e-b620-d922a0f78486" />
 
 Where:
 - `s_t`: State at time `t`.
 - `a_t`: Action taken at time `t`.
-- `\pi`: Policy function determining the action given the current state.
+- `π`: Policy function determining the action given the current state.
 - `r_t`: Reward obtained by taking action `a_t` in state `s_t`.
-- `\gamma`: Discount factor.
+- `γ`: Discount factor.
 
 ## Results
 <img width="563" alt="Screenshot 2025-01-14 at 2 08 38 PM" src="https://github.com/user-attachments/assets/107dffb8-9a39-49b5-a5da-f1da07465692" />
