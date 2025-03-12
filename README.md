@@ -2,7 +2,7 @@
 https://github.com/user-attachments/assets/cc993dab-b3ce-4ef2-a9cb-612e02ece5ef
 
 ## Introduction
-I decided to challenge myself by creating a game agent for Tetris. Leveraging Python’s extensive tools like PyTorch, I trained a model to autonomously learn and play Tetris. By the end of this project, my model could play Tetris with a level of skill comparable to a professional player.
+I decided to challenge myself by creating a self-learning agent for Tetris. Leveraging Python’s extensive tools like PyTorch, I trained a model to autonomously learn and play Tetris. By the end of this project, my model could play Tetris with a level of skill comparable to a professional player.
 
 ## Objectives
 - Build a functioning reinforcement learning (RL) game agent.
